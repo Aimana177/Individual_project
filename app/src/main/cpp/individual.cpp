@@ -9,7 +9,7 @@
 //       System.loadLibrary("individual");
 //    }
 //
-// Or, in MainActivity.kt:
+// Or, in MainActivityWelcome.kt:
 //    companion object {
 //      init {
 //         System.loadLibrary("individual")
