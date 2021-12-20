@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">individual</string>
+    <string name="get_started">Get started</string>
+    <string name="name">laffkin`s</string>
+    <string name="signin">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="num">+99670555202</string>
+    <string name="pass">12345</string>
+    <string name="forget">Забыли пароль?</string>
+    <string name="signin2">Войти</string>
+    <string name="email">samiro4ka.cool@gmail.com</string>
+    <string name="mypro">Мой профиль</string>
+    <string name="samira">Самира Багиш</string>
+    <string name="samiro4ka_cool_gmail_com">samiro4ka.cool@gmail.com</string>
+    <string name="adress">Тыныстанова29</string>
+    <string name="update">Обновить</string>
+    <string name="code">Код подтверждения</string>
+    <string name="sms">Введите код из смс</string>
+    <string name="si">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="register2">Register</string>
+    <string name="samiraa">Cамира</string>
+    <string name="bagish">Багиш</string>
+    <string name="samiro4ka_cool_gmail_com2">samiro4ka.cool@gmail.com</string>
+    <string name="number">+99670555202</string>
+    <string name="_12345">12345</string>
+    <string name="forpass">Забыли пароль?</string>
+    <string name="myyyprof">Мой профиль</string>
+    <string name="samiraaa">Самира Багиш</string>
+    <string name="samiro4ka_cool_gmail_com3">samiro4ka.cool@gmail.com</string>
+    <string name="_29">Тыныстанова29</string>
+    <string name="secret">Конфидициональность</string>
+    <string name="que">Вопросы</string>
+    <string name="help">Помощь</string>
+    <string name="updateee">Обновить</string>
+    <string name="basket">Корзина</string>
 </resources>

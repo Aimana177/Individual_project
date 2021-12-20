@@ -31,16 +31,18 @@
             android:layout_width="202dp"
             android:layout_height="50dp"
             android:background="@color/white"
-            android:text="Войти"
-            android:textColor="@color/black" />
+            android:text="@string/si"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/sign"
             android:layout_width="206dp"
             android:layout_height="50dp"
             android:background="@color/white"
-            android:text="Регистрация"
-            android:textColor="#AF4D7C" />
+            android:text="@string/register"
+            android:textColor="#AF4D7C"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>
@@ -58,12 +60,12 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/rtgister"
             android:layout_width="290dp"
             android:layout_height="match_parent"
             android:background="#000000"
             android:backgroundTint="#DCA7C5"
-            android:text="Register"
+            android:text="@string/register2"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
@@ -86,7 +88,7 @@
             android:layout_marginBottom="40dp"
             android:ems="10"
             android:inputType="phone"
-            android:text="Cамира"
+            android:text="@string/samiraa"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -97,7 +99,7 @@
             android:layout_marginBottom="40dp"
             android:ems="10"
             android:inputType="phone"
-            android:text="Багиш"
+            android:text="@string/bagish"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -108,16 +110,16 @@
             android:layout_marginBottom="40dp"
             android:ems="10"
             android:inputType="phone"
-            android:text="samiro4ka.cool@gmail.com" />
+            android:text="@string/samiro4ka_cool_gmail_com2" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="+99670555202" />
+            android:text="@string/number" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -126,7 +128,9 @@
             android:layout_marginBottom="30dp"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="12345" />
+            android:text="@string/_12345"
+            android:autofillHints="Number"
+            tools:ignore="LabelFor"/>
 
         <LinearLayout
             android:layout_width="266dp"
@@ -137,7 +141,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Забыли пароль?"
+                android:text="@string/forpass"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>

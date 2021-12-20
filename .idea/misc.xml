@@ -5,14 +5,15 @@
       <map>
         <entry key="app/src/main/res/drawable/shape.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/layout/activity_code.xml" value="0.2281439832833287" />
+        <entry key="app/src/main/res/layout/activity_hits.xml" value="0.22310097615567953" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2484375" />
         <entry key="app/src/main/res/layout/activity_main_hits.xml" value="0.275" />
-        <entry key="app/src/main/res/layout/activity_main_profile.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/activity_main_profile.xml" value="0.19169329073482427" />
         <entry key="app/src/main/res/layout/activity_main_register.xml" value="0.22796680379239195" />
         <entry key="app/src/main/res/layout/activity_page.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.275" />
-        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.246875" />
-        <entry key="app/src/main/res/menu/menu.xml" value="0.5378455487067336" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.3225806451612903" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.28975736757277754" />
       </map>
     </option>
   </component>
