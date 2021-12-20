@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individual">
         <activity
+            android:name=".MainActivityCode"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityRegister"
+            android:exported="true" />
+        <activity
             android:name=".MainActivityProfile"
             android:exported="true" />
         <activity
