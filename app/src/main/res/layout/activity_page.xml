@@ -22,7 +22,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="355dp"
         android:layout_height="163dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
@@ -40,8 +40,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="130dp"
                 android:layout_height="153dp"
-                app:srcCompat="@drawable/__5"
-                android:contentDescription="@null"/>
+                android:contentDescription="@null"
+                app:srcCompat="@drawable/__5" />
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/secret"
+                android:text="Поиск"
                 android:textColor="@color/black" />
 
             <ImageView
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/que"
+                android:text="Способ оплаты"
                 android:textColor="@color/black" />
 
             <ImageView
@@ -188,7 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
-                android:text="@string/help"
+                android:text="Хиты"
                 android:textColor="@color/black" />
 
             <ImageView
