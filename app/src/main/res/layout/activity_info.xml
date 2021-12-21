@@ -5,33 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivityInfo">
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile"
-        android:layout_width="165dp"
-        android:layout_height="176dp"
-        android:layout_marginTop="44dp"
-        android:src="@drawable/photo_2021_12_19_19_28_44"
-        app:civ_border_color="#AF4D7C"
-        app:civ_border_width="2dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/heart"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="32dp" />
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="32dp" />
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/heart" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView13"
@@ -40,33 +28,65 @@
         android:text="Hat cake"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="281dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="45dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="356dp"
+        android:textColor="@color/orange"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="319dp"
         tools:text="600 com" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="420dp" />
+        android:layout_width="222dp"
+        android:layout_height="59dp"
+        android:text="Доставлено с понедельника по авг. По четверг, 20 с 20:00 до 91:32"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="431dp" />
 
     <TextView
         android:id="@+id/textView16"
+        android:layout_width="269dp"
+        android:layout_height="123dp"
+        android:text="Все наши продукты проходят двойную проверку перед тем, как покинуть наши магазины, поэтому в любом случае, если вы обнаружите испорченный продукт, немедленно свяжитесь с нами"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <TextView
+        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="498dp" />
+        android:text="Информация о доставке"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Политика"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="165dp"
+        android:layout_height="176dp"
+        android:src="@drawable/photo_2021_12_19_19_28_44"
+        app:civ_border_color="#AF4D7C"
+        app:civ_border_width="2dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="94dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

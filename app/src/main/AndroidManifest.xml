@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individual">
         <activity
+            android:name=".MainActivityCart"
+            android:exported="true" />
+        <activity
             android:name=".MainActivityInfo"
             android:exported="true" />
         <activity
