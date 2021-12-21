@@ -3,10 +3,11 @@
     android:layout_width="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
+        android:id="@+id/cakee"
         android:layout_width="355dp"
         android:layout_height="163dp"
         android:orientation="horizontal"
@@ -14,7 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent">>
+        app:layout_constraintStart_toStartOf="parent">
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/Avatar"
@@ -43,11 +45,11 @@
 
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/hatcake"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="Hat cake"
+                android:text="@string/hat_cake"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -58,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="700 com"
+                android:text="@string/_700_com"
                 android:textColor="#F44336"
                 android:textSize="18sp"
                 android:textStyle="bold" />

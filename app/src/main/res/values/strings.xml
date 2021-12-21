@@ -17,7 +17,6 @@
     <string name="code">Код подтверждения</string>
     <string name="sms">Введите код из смс</string>
     <string name="si">Войти</string>
-    <string name="register">Регистрация</string>
     <string name="register2">Register</string>
     <string name="samiraa">Cамира</string>
     <string name="bagish">Багиш</string>
@@ -34,4 +33,6 @@
     <string name="help">Помощь</string>
     <string name="updateee">Обновить</string>
     <string name="basket">Корзина</string>
+    <string name="hat_cake">Hat cake</string>
+    <string name="_700_com">700 com</string>
 </resources>
